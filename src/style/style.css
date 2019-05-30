@@ -1,0 +1,80 @@
+.title {
+	font-size: 50px
+}
+
+.input-form-group {
+	width: 500px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.text-form-group {
+	width: 600px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#line {
+	height: 1px;
+	background: white;
+	margin: 15px 50px
+}
+
+.memoWrapper {
+	margin: 15px 50px;
+	background: antiquewhite;
+	border-radius: 10px;
+}
+
+.memoWrapper .titletext {
+	font-size: 35px;
+	margin: 25px;
+	color: chocolate;
+}
+
+.memoWrapper .memodate {
+	font-size: 17px;
+	margin: 25px;
+}
+
+.memoWrapper .titleLine {
+	height: 1px;
+	margin: 10px 20px;
+	background: rgb(42, 150, 192);
+}
+
+.memoWrapper .detailText {
+	font-size: 20px;
+	margin: 0px 25px;
+}
+
+.memoWrapper .memodetail {
+	margin: 0 0 0 400px;
+	color: crimson;
+	width: 60px
+}
+
+.memoWrapper .memoremove {
+	margin: 0 0 0 40px;
+	color: orange;
+}
+
+.memoWrapper .memobutton {
+	border: transparent;
+	background: transparent;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+textarea::placeholder {
+	text-align: center;
+	font-size: 45px;
+}
