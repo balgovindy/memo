@@ -14,7 +14,7 @@ class App extends Component {
     time: ''
   }
 
- 
+
   handleOnChange = (e) => {
     switch (e.target.getAttribute('name')) {
       case 'title':
@@ -67,7 +67,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <Header />
         <TitleField
           handleOnChange={this.handleOnChange}
